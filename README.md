@@ -105,7 +105,7 @@ String validation uses UTF-8 byte length, which may differ from character count 
 | Chain ID | `11155111` |
 | Contract address | `0x08DBE5b5f1dB0f4E97273657f002F468A415a979` |
 | Coordinator address | `0x9A78A6Ab890d4327926e8EE16E2d2909cf5B7ceB` |
-| Solidity compiler version | `0.8.23` |
+| Solidity compiler version | `0.8.34` |
 | Deployment transaction hash | `0x3f438ad096ea335078142792218a08659fa1f631d08ea7759ee0daf0f5d61acd` |
 
 Contract explorer link:
@@ -210,7 +210,7 @@ An error rejected during gas estimation is a rejected call, not a mined failed t
 |---|---|
 | Contract deployment | `0x3f438ad096ea335078142792218a08659fa1f631d08ea7759ee0daf0f5d61acd` |
 | Successful ticket creation | `0xb9b911ca5aaa2f9eb0bee51c74eb952b63052e579395b7a1be4f83f15fa69852` |
-| Successful ticket resolution | `0x0f83be412afbba64d4ff89978e37e144070e9a946bdb293ed3c228c8f416ec10` |
+| Successful ticket resolution | `0x8aae7bcf44732264ae4bb9dd08c65ed03925020e8006b73b41abc6f829d699aa` |
 
 Transactions can be inspected using:
 
@@ -255,7 +255,7 @@ Resultant failed Transaction block data:
 
 ![Unauthorized transaction call failure](<screenshots/Unauthorized.png>)
 
-As seen above, "coordinator only" means only the account with which we deployed the contract can initiate transactions
+The `Coordinator only` error confirms that only the account that deployed the contract can call `resolveTicket`. Other accounts can still create tickets and read blockchain data.
 
 ## Security and Limitations
 
