@@ -197,7 +197,7 @@ There are no constructor arguments. The account used for deployment becomes the 
 | Blockchain data retrieval | Read tickets through the frontend | Stored ticket details displayed | Ticket details displayed |
 | Authorized resolution | Coordinator resolves an open ticket | Status becomes Resolved | Ticket resolved successfully |
 | Persistence | Refresh browser and reconnect | Saved ticket state remains available | Saved ticket remained visible |
-| Invalid input | Call `createTicket("AB", "Library")` | Rejected: `Title must be 3 to 80 bytes` | [ENTER YOUR OBSERVED RESULT] |
+| Invalid input | Call `createTicket("AB", "Library")` | Rejected: `Title must be 3 to 80 bytes` | Title needs to be between 3 and 80 characters in length |
 | Unauthorized resolution | Account 2 calls `resolveTicket(0)` | Rejected: `Coordinator only` | Call rejected with `Coordinator only` |
 
 For the unauthorized test, the caller's address was verified to differ from the address returned by `coordinator()`.
