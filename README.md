@@ -221,25 +221,33 @@ https://sepolia.etherscan.io/tx/TRANSACTION_HASH
 ## Screenshots
 
 ### Successful Compilation
-![Successful compilation](screenshots/compilation.png)
+![Successful compilation](<screenshots/Successful Compilation.png>)
 
 ### Contract Deployment
-![Contract deployment](screenshots/deployment.png)
+![Contract deployment](<screenshots/Successfully Deployed.png>)
 
 ### MetaMask Connection
-![Connected wallet](screenshots/wallet-connected.png)
+![Connected wallet](<screenshots/Wallet Connected.png>)
 
 ### Successful Transaction
-![Successful transaction](screenshots/successful-transaction.png)
+![Transaction input](<screenshots/Input Valid Transaction.png>)
 
-### Blockchain Data in the Frontend
-![Retrieved ticket data](screenshots/blockchain-data.png)
+![Successful transaction](<screenshots/Successful Transaction.png>)
+
+### Blockchain Data of Successful Transaction
+![Ticket data - 1](<screenshots/Blockchain Data - 1 for valid Transaction.png>)
+
+![Ticket data - 2](<screenshots/Blockchain Data - 2 for valid Transaction.png>)
 
 ### Invalid Input
-![Invalid input rejection](screenshots/invalid-input.png)
+![Invalid input rejection](<screenshots/Invalid TestCase.png>)
 
 ### Unauthorized Call
-![Unauthorized call rejection](screenshots/unauthorized-call.png)
+![Coordinator address](<screenshots/Coordinator.png>)
+
+![Account 2 address](<screenshots/Invalid Account.png>)
+
+![Unauthorized call rejection](<screenshots/Unauthorized - 3.png>)
 
 ## Security and Limitations
 
