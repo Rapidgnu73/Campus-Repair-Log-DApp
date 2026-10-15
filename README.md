@@ -243,11 +243,19 @@ https://sepolia.etherscan.io/tx/TRANSACTION_HASH
 ![Invalid input rejection](<screenshots/Invalid TestCase.png>)
 
 ### Unauthorized Call
-![Coordinator address](<screenshots/Coordinator.png>)
+Contract was deployed with: 
 
-![Account 2 address](<screenshots/Invalid Account.png>)
+![Account - 1](<screenshots/Coordinator.png>)
 
-![Unauthorized call rejection](<screenshots/Unauthorized - 3.png>)
+Transaction was invoked with:
+
+![Account - 2](<screenshots/Invalid Account.png>)
+
+Resultant failed Transaction block data: 
+
+![Unauthorized transaction call failure](<screenshots/Unauthorized.png>)
+
+As seen above, "coordinator only" means only the account with which we deployed the contract can initiate transactions
 
 ## Security and Limitations
 
